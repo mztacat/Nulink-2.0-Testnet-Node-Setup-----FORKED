@@ -20,6 +20,7 @@
 1- First of all, if you are going to install outside of vps providers where ports such as Contabo, Hetzner, Linode, Digital Oceon are open. You must open port 9151 with the codes below or from the virtual server provider's own site.
 
 ```
+sudo apt install ufw
 sudo ufw enable
 sudo ufw allow 9151
 ```
