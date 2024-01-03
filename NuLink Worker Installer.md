@@ -23,6 +23,7 @@
 sudo apt install ufw
 sudo ufw enable
 sudo ufw allow 9151
+sudo ufw allow 22
 ```
 
 2- Download Geth on your server.
