@@ -21,7 +21,6 @@
 
 ```
 sudo apt install ufw
-sudo ufw enable
 sudo ufw allow 9151
 sudo ufw allow ssh
 sudo ufw enable
