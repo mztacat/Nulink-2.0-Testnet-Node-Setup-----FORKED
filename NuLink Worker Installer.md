@@ -140,6 +140,16 @@ wget https://download.nulink.org/release/core/nulink-0.5.0-py3-none-any.whl
 ```
 
 16- Install the python package.
+In order to avoid the `nucypher-core` package failing on installation first install rust 
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+```
+source "$HOME/.cargo/env"
+rustup install stable
+```
+Then run:
+
 ```
 pip install nulink-0.5.0-py3-none-any.whl
 ```
